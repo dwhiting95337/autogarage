@@ -1,0 +1,47 @@
+License Plate Recognition:
+
+MUST INSTALL OPENCV AND TESSERACTOCR AND LINK THE LIBRARIES TO WHICHEVER IDE YOU ARE USING TO FUNCTION!!!!!
+
+1)Download all files from the License Plate Recognition folder
+
+2)In main, must change all destination locations for newdata, test1, check_size1, and california.  These items are needed and if the destination path doesn't
+point to the correct item the program WILL crash.
+
+3)Impliment all .cpp and header files together.
+
+
+
+CarGarage:
+
+MUST INSTALL OPENCV AND LINK THE LIBRARIES TO WHICHEVER IDE YOU ARE USING TO FUNCTION!!!!!
+
+1)Download all files from the CarGarage folder
+
+2)In CarGarage.cpp, change all .xml file paths to the locations in which you have the files at.  If this is not done the program will crash.
+
+3)Include car_detect
+
+
+UI Code
+
+1)  All is needed to do to verify this code is to click the application.  Its code can be viewed in the cpp file and actions can be seen
+in the LicensePlates text file.
+
+
+BBB Code:
+
+NOTE:  This code is meant for the Beagle Bone Black board.  There are some functions specific to the board that will
+not work if using another platform
+
+1)Store existing files in directory.
+
+2)Compile all three c/cpp files in linux.
+
+3)Run all files file simultaneously.
+
+Code References:
+http://blog.ayoungprogrammer.com/2012/11/tutorial-installing-tesseract-ocr-30202.html
+
+https://www.youtube.com/watch?v=TjooGvvfwbY
+
+https://github.com/MasteringOpenCV/code/tree/master/Chapter5_NumberPlateRecognition
